@@ -34,7 +34,7 @@ It supports USB flash drives, DVD/CD burning, GRUB-based multiboot setups, and g
   - `.zip` games, where the user selects which executable or boot file to launch
   - ROM files for supported emulators or boot environments
 - Allows manual selection of the entry file when multiple bootable files exist
-- Designed for legitimate backups, homebrew, and legally owned software
+- Intended for legitimate backups, homebrew, and legally owned software
 
 ### Safety Systems
 - System drive detection and blocking
@@ -60,7 +60,7 @@ It supports USB flash drives, DVD/CD burning, GRUB-based multiboot setups, and g
 
 ## Tech Stack
 
-- **Language:** Python
+- **Language:** Python **3.11**
 - **UI Framework:** PySide6 (Qt 6) with QML
 - **Bootloader:** GRUB2
 - **Supported Platforms:** Linux, Windows, macOS
